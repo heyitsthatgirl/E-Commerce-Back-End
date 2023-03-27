@@ -59,6 +59,7 @@ router.put("/:id", async (req, res) => {
         id: req.params.id,
       },
     });
+    console.log(updateCategory);
     res.status(200).json({message: "Category has been updated"});
   } catch (err) {
     res.status(400).json(err);
@@ -73,6 +74,7 @@ router.delete("/:id", async (req, res) => {
         id: req.params.id,
       },
     });
+    console.log(deleteCategory);
     res.status(200).json({message: "Category deleted"});
   } catch (err) {
     res.status(400).json(err);
