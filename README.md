@@ -59,8 +59,6 @@ A video showing a full walk-through of this app's functionality can be viewed [h
 
 ## Contributing
 
-The repository for this app can be found [here]().
-
 For information on how to contribute to a project through forking, please visit the 
 GitHub documentation on [Contributing to projects through forking](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
